@@ -1,0 +1,24 @@
+//@import "colors";
+.options-container {
+    align-items: center;
+
+    .filter-select {
+        font-size: 0.75rem;
+        border: 1px solid #9D9FA8;
+        padding: 0.5rem;
+        border-radius: 5rem;
+    }
+
+    .face-list {
+        display: flex;
+
+        .face-chips {
+            font-size: 0.75rem;
+            margin: 0.5rem;
+            cursor: pointer;
+            border: 1px solid #9D9FA8;
+            padding: 0.5rem;
+            border-radius: 5rem;
+        }
+    }
+}

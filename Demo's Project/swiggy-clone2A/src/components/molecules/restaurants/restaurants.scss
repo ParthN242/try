@@ -1,0 +1,23 @@
+// //@import "colors";
+.title-container,
+.options-container,
+.restaurant-container {
+    display: flex;
+    ;
+}
+
+.title-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    // overflow-x: auto;
+    // white-space: nowrap;
+    // scroll-behavior: smooth;
+    // &::-webkit-scrollbar {
+    //     display: none;
+    // }
+}
